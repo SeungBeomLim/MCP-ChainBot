@@ -1,0 +1,36 @@
+[
+  {
+    "tool": "weather",
+    "name": "OpenWeather",
+    "host": "localhost",
+    "port": 8000,
+    "path": "/tools/weather/invoke",
+    "secure": false
+  },
+  {
+    "tool": "wiki",
+    "name": "Wikipedia",
+    "host": "localhost",
+    "port": 8001,
+    "path": "/tools/wiki/invoke",
+    "secure": false
+  },
+  {
+    "tool": "exchange",
+    "name": "ExchangeRate",
+    "host": "localhost",
+    "port": 8002,
+    "path": "/tools/exchange/invoke",
+    "secure": false
+  },
+  {
+    "tool": "filesystem",
+    "name": "LocalFS",
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-filesystem", "/Users/seoungbeomlim/Desktop", "/Users/seoungbeomlim/Downloads"],
+    "host": "localhost",
+    "port": 9000,
+    "path": "/invoke",
+    "secure": false
+  }
+]
