@@ -39,11 +39,11 @@ streamlit run app/main_app.py
 ## 🌐 API Sources
 This project uses the following APIs:
 
-GroqCloud API – For LLM inference
+- GroqCloud API – For LLM inference
 
-OpenWeather API – For weather information
+- OpenWeather API – For weather information
 
-OpenExchangeRates API – For currency conversion
+- OpenExchangeRates API – For currency conversion
 
 Ensure that your .env file includes the API keys for the services above.
 
