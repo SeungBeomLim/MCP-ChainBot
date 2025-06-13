@@ -13,7 +13,7 @@ The architecture follows a modular multi-agent design:
   - `ExchangeRateAgent`: retrieves the current exchange rate.
 - Each agent communicates via MCP and fetches data through APIs, returning results to the user through the UI.
 
-![Architecture]()
+![Architecture](https://github.com/user-attachments/assets/e0393f5f-76f0-443f-8993-263a7d168fad)
 
 ## 🚀 How to Run
 
