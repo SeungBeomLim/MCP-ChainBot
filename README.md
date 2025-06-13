@@ -15,27 +15,6 @@ The architecture follows a modular multi-agent design:
 
 ![Architecture](https://github.com/user-attachments/assets/e0393f5f-76f0-443f-8993-263a7d168fad)
 
-## 🚀 How to Run
-
-Make sure your environment is set up as described below. Then run the following commands in separate terminals:
-
-```bash
-# Start MCP Host
-python -m mcp.host
-
-# Run Weather Agent server (port 8000)
-uvicorn tools.weather_server:app --reload --port 8000
-
-# Run Wiki Agent server (port 8001)
-uvicorn tools.wiki_server:app --reload --port 8001
-
-# Run Exchange Rate Agent server (port 8002)
-uvicorn tools.exchange_server:app --reload --port 8002
-
-# Run Chatbot UI
-streamlit run app/main_app.py
-```
-
 ## 🌐 API Sources
 This project uses the following APIs:
 
@@ -73,3 +52,23 @@ Ensure that your .env file includes the API keys for the services above.
     ```bash
     deactivate
     ```
+## 🚀 How to Run
+
+Make sure your environment is set up as described below. Then run the following commands in separate terminals:
+
+```bash
+# Start MCP Host
+python -m mcp.host
+
+# Run Weather Agent server (port 8000)
+uvicorn tools.weather_server:app --reload --port 8000
+
+# Run Wiki Agent server (port 8001)
+uvicorn tools.wiki_server:app --reload --port 8001
+
+# Run Exchange Rate Agent server (port 8002)
+uvicorn tools.exchange_server:app --reload --port 8002
+
+# Run Chatbot UI
+streamlit run app/main_app.py
+```
